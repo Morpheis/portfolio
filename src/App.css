@@ -102,11 +102,17 @@ body {
   box-shadow: 0 8px 32px rgba(99, 102, 241, 0.3);
 }
 
+.profile-image {
+  display: flex;
+  justify-content: center;
+}
+
 .avatar {
   width: 140px;
   height: 140px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center top;
   border: 3px solid var(--accent);
   box-shadow: 0 8px 32px rgba(99, 102, 241, 0.3);
 }
