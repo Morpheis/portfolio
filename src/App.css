@@ -191,6 +191,7 @@ body {
   flex: 1;
   padding: 2rem 4rem;
   max-width: 900px;
+  margin: 0 auto;
 }
 
 /* Hero Section */
@@ -565,6 +566,7 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
+  color: var(--text-primary);
 }
 
 .journey-end p {
