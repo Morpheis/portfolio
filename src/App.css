@@ -91,6 +91,7 @@ body {
   border: 3px solid var(--accent);
   box-shadow: 0 8px 32px rgba(99, 102, 241, 0.3);
   margin: 0 auto;
+  background: var(--bg-primary);
 }
 
 .avatar-placeholder {
@@ -111,8 +112,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: scale(1.32) translateY(19px);
-  transform-origin: center center;
+  object-position: center top;
 }
 
 .profile-info {
