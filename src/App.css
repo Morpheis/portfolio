@@ -741,17 +741,16 @@ body {
 /* Responsive - Widescreen single column spacing fixes */
 @media (min-width: 1281px) {
   .sidebar-content {
-    padding-bottom: 0.75rem;
+    padding-bottom: 1.5rem;
     gap: 1.25rem;
   }
 
   .location {
-    margin-top: 0.75rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
   }
 
   .main-content {
-    padding-top: 1rem;
+    padding-top: 2rem;
   }
 
   .hero {
