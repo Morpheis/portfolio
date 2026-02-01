@@ -7,7 +7,7 @@ export function Skills() {
   return (
     <section className="skills-section">
       <div ref={scrollRef}>
-        <h2 className="section-title animate-on-scroll">
+        <h2 className="section-title gradient-text animate-on-scroll">
           Skills & Technologies
         </h2>
 

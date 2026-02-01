@@ -23,8 +23,8 @@ export const profile = {
   phone: "(208) 440-6526",
   
   social: {
-    linkedin: "https://www.linkedin.com/in/kenzink/",
-    github: "https://github.com/kzink",
+    linkedin: "https://www.linkedin.com/in/ken-zink-89b4295/",
+    github: "https://github.com/Morpheis",
     email: "mailto:ken.zink@proton.me",
   },
 
@@ -163,6 +163,10 @@ export const profile = {
     {
       category: "Databases",
       items: ["PostgreSQL", "MySQL", "SQL Server", "MongoDB"],
+    },
+    {
+      category: "AI & Tools",
+      items: ["Claude", "ChatGPT", "Grok", "Cursor", "Clawdbot", "GitHub Copilot", "Prompt Engineering"],
     },
     {
       category: "Platforms",

@@ -224,7 +224,14 @@ body {
 
 .hero-title span {
   display: block;
-  background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
+  background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-hover) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-hover) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -648,8 +655,15 @@ body {
 
 .sparkle {
   font-size: 2rem;
-  display: block;
+  display: inline-block;
   margin-bottom: 1rem;
+  animation: sparkleFloat 3s ease-in-out infinite;
+}
+
+@keyframes sparkleFloat {
+  0%, 100% { transform: translateY(0) scale(1); }
+  33% { transform: translateY(-8px) scale(1.1); }
+  66% { transform: translateY(4px) scale(0.95); }
 }
 
 .journey-end h3 {

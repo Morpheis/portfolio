@@ -29,7 +29,7 @@ export function Contact() {
   return (
     <section className="contact-section">
       <div ref={scrollRef}>
-        <h2 className="section-title animate-on-scroll">
+        <h2 className="section-title gradient-text animate-on-scroll">
           Let's Connect
         </h2>
         <p
@@ -68,7 +68,7 @@ export function Contact() {
           style={{ '--stagger': '0.3s' } as React.CSSProperties}
         >
           <span className="sparkle">✨</span>
-          <h3>That's My Journey</h3>
+          <h3 className="gradient-text">That's My Journey</h3>
           <p>
             15+ years evolving from hands-on testing through automation
             architecture to engineering leadership, driving quality excellence
