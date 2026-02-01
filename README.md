@@ -2,7 +2,7 @@
 
 Personal portfolio site showcasing my career in software engineering, QA leadership, and test automation.
 
-**Live:** [kenzink.dev](https://kenzink.dev) *(or wherever Netlify deploys it)*
+**Live:** [kenzink.com](https://kenzink.com)
 
 ## Tech Stack
 
