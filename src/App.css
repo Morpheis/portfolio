@@ -192,7 +192,6 @@ body {
   flex: 1;
   padding: 2rem 4rem;
   max-width: 900px;
-  margin: 0 auto;
 }
 
 /* Hero Section */
@@ -687,6 +686,33 @@ body {
   font-size: 0.875rem;
   border-top: 1px solid var(--border);
   margin-top: 4rem;
+}
+
+/* Responsive - Wide screens: single column */
+@media (min-width: 1281px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .sidebar-content {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .main-content {
+    padding: 2rem 4rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
 }
 
 /* Responsive - Tablet */
