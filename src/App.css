@@ -746,7 +746,8 @@ body {
   }
 
   .location {
-    padding-top: 0.5rem;
+    margin-top: 0.75rem;
+    padding-top: 1rem;
   }
 
   .main-content {
