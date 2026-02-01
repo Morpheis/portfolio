@@ -23,8 +23,8 @@ export const profile = {
   phone: "(208) 440-6526",
   
   social: {
-    linkedin: "https://www.linkedin.com/in/kenzink/",
-    github: "https://github.com/kzink",
+    linkedin: "https://www.linkedin.com/in/ken-zink-89b4295/",
+    github: "https://github.com/Morpheis",
     email: "mailto:ken.zink@proton.me",
   },
 
@@ -46,10 +46,11 @@ export const profile = {
           startDate: "Dec 2025",
           endDate: "Present",
           highlights: [
-            "Building and maintaining Bitcoin mining infrastructure and fintech applications",
-            "Developing full-stack features for the Hashbranch platform using modern web technologies",
-            "Collaborating with cross-functional teams to deliver high-quality software solutions",
-            "Applying quality engineering principles to ensure robust, scalable code",
+            "Own the end-to-end quality strategy for Hashbranch's Bitcoin mining commerce platform, defining testing standards, release validation processes, and QA frameworks that ensure platform reliability at scale",
+            "Architect and maintain automated test suites across UI, API, and integration layers, embedding them directly into CI/CD pipelines to enable continuous validation with every deployment",
+            "Contribute to the production codebase through bug fixes, feature work, and improvements while reviewing pull requests with a quality-first lens, assessing testability and risk across every change",
+            "Monitor platform health by analyzing logs, metrics, and error reports, proactively surfacing issues and driving continuous improvements to QA tooling and automation frameworks",
+            "Partner closely with product and engineering to clarify requirements, define acceptance criteria, and validate release readiness throughout Agile sprint cycles",
           ],
         },
         {
@@ -57,10 +58,10 @@ export const profile = {
           startDate: "Apr 2025",
           endDate: "Dec 2025",
           highlights: [
-            "Established QA processes and testing infrastructure for the Hashbranch platform",
-            "Designed and implemented automated testing strategies for web and API testing",
-            "Collaborated with development teams to integrate quality practices into the SDLC",
-            "Contributed to improving platform reliability and user experience",
+            "Established QA processes and testing infrastructure from scratch for Hashbranch's Bitcoin mining commerce platform, setting quality standards across the engineering organization as the first dedicated QA hire",
+            "Designed and implemented automated test suites using Playwright and Cypress, integrating them into CI/CD pipelines to deliver continuous regression coverage across web applications",
+            "Built comprehensive API testing strategies with Postman and custom automation scripts, validating reliability across fintech and commerce backend services",
+            "Collaborated with engineers and product managers within Agile/Scrum workflows to define test strategies, surface defects early in the development cycle, and drive continuous quality improvement",
           ],
         },
       ],
@@ -162,6 +163,10 @@ export const profile = {
     {
       category: "Databases",
       items: ["PostgreSQL", "MySQL", "SQL Server", "MongoDB"],
+    },
+    {
+      category: "AI & Tools",
+      items: ["Claude", "ChatGPT", "Grok", "Cursor", "Clawdbot", "GitHub Copilot", "Prompt Engineering"],
     },
     {
       category: "Platforms",
