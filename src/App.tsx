@@ -12,6 +12,9 @@ function App() {
 
   return (
     <div className={`app ${darkMode ? 'dark' : 'light'}`}>
+      <div style={{ backgroundColor: '#ff6b35', color: 'white', textAlign: 'center', padding: '2rem', fontSize: '3rem', fontWeight: 'bold', letterSpacing: '0.1em' }}>
+        HI JUDE
+      </div>
       <ThemeToggle darkMode={darkMode} onToggle={() => setDarkMode(!darkMode)} />
       <div className="layout">
         <Sidebar />
